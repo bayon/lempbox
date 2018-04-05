@@ -1,0 +1,320 @@
+html,body{
+    /*overflow-x:hidden !important;
+    */
+}
+/* -- HEADER ---------------------------- -- */
+ #masthead{
+     position:fixed;
+     top:0px;
+     z-index:9999;
+     box-shadow:0px 0px 20px #555;
+}
+ header#masthead{
+     background-color:#fff !important;
+     color:#000;
+}
+ .header-row{
+     margin-right:0px !important;
+     margin-bottom:0px !important;
+     padding-right:0px !important;
+     padding-bottom:0px !important;
+}
+ .asi-plm-logo-div{
+     margin-top:15px;
+}
+ .header-row{
+     height:122px;
+}
+ .asi-plm-logo-div a.logo{
+     text-align:left;
+     float:left;
+}
+/* -- NAVIGATION ------------------------ -- */
+ #menu-item-21 {
+     background-color: #36414d ;
+     color:#fff;
+}
+ .main-navigation #menu-item-21 a{
+     color:#fff !important;
+}
+ .main-navigation #menu-item-21 a:visited{
+     color:#fff !important;
+}
+ .main-navigation #menu-item-21 a:hover{
+     color:#fff !important;
+     background-color:#27A9E1;
+}
+ .main-navigation a{
+     color:#525c66 !important;
+}
+ .main-navigation a:visited{
+     color:#525c66 !important;
+}
+ .main-navigation a:hover{
+     color:#61C0E9 !important;
+}
+ .main-navigation{
+     margin-top:30px;
+}
+ .main-navigation a, .textwidget a{
+     color:#222 !important;
+}
+ .main-navigation a{
+     color: #525c66;
+     font-size: .75rem;
+     position: relative;
+     text-transform: uppercase;
+     transition: all .15s ease-in-out;
+}
+ .main-navigation ul ul{
+     box-shadow:none;
+}
+ .sub-menu{
+     background-color:#fff;
+     opacity:.9;
+     border:solid 1px #ddd;
+}
+ .menu-mainmenu-container{
+     float:right;
+}
+ #site-navigation button{
+     background:#252d34;
+}
+/* -- BODY ------------------------------ -- */
+ .site-content{
+     margin-top:100px;
+    /* due to Sticky Header */
+}
+ .site-content{
+    padding:0 0 !important;
+}
+ .content-area {
+     padding-right:0px !important;
+     padding-left:0px !important;
+}
+ #content .row{
+     padding:0 !important;
+     margin:0 !important;
+}
+ #secondary{
+     display:none;
+}
+ .hero{
+     height:525px;
+     max-height:525px;
+}
+ .back-to-press{
+     background-color: #36414d ;
+     color:#fff;
+     width:100px;
+     margin-top:25px;
+     padding:3px;
+     text-align:center;
+}
+.card{
+     border:none !important;
+}
+ .wp-video-embed{
+     margin-top:60px;
+     border:solid 1px #ccc;
+     padding:10px;
+}
+ .front-page-adjust{
+     margin-left:25%;
+}
+/* -- SECTION --------------------------- -- */
+/* -- ARTICLE & ENTRY--------------------------- -- */
+ article{
+     margin:0 !important;
+    padding:0 !important;
+}
+ .entry-content, .entry-summary, .page-content{
+     margin:0 0 0 0 !important;
+}
+/* -- FOOTER ---------------------------- -- */
+ .site-footer{
+     background-color:#eee;
+}
+/* -- TYPOGRAPHY ------------------------ -- */
+ .breaking-word-fix{
+     -ms-word-break: keep-all !important;
+     word-break: keep-all !important;
+    /* Non standard for WebKit */
+     word-break: keep-all !important;
+     -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+     hyphens: none !important;
+     -ms-hyphens:none !important;
+}
+ #primary,aside{
+     -ms-word-break: keep-all !important;
+     word-break: keep-all !important;
+    /* Non standard for WebKit */
+     word-break: keep-all !important;
+     -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+     hyphens: none !important;
+     -ms-hyphens:none !important;
+}
+/* -- ANCHORS --------------------------- --*/
+ a{
+    text-decoration:none;
+ }
+a:link {
+    color: #333;
+}
+a:visited {
+    color: #333;
+}
+a:hover {
+    color: #555;
+}
+a:active {
+    color: #000;
+}
+ 
+ .home .site-title a{
+     color:#333;
+}
+/* -- LISTS ------------------------- --*/
+ ul {
+     list-style:none !important;
+
+}
+ ul li{
+     margin-left:15px;
+}
+ ul li a{
+    margin-left:5px;
+    margin-right:5px;
+
+}
+/* =====================================================================================*/
+/* RWD ------------------------------------ */
+ @media (min-width: 0px) and (max-width: 768px) {
+    /* -- HEADER ---------------------------- -- */
+     .header-spacer{
+         display:none;
+    }
+     .asi-plm-logo-div{
+         margin-top:0px;
+    }
+     .asi-plm-logo-div img{
+         width:165px;
+    }
+     .header-row{
+         height:75px;
+    }
+     #masthead{
+         box-shadow: 0px 2px 15px #333 !important;
+    }
+    /* -- NAVIGATION ------------------------ -- */
+     #primary-menu li.menu-item{
+         background-color:#252d34;
+    }
+     #primary-menu{
+         margin-top:60px;
+    }
+     .main-navigation{
+         margin-top:15px;
+    }
+     .main-navigation button{
+         border:none !important;
+         outline-color:none !important;
+    }
+     button.menu-toggle{
+         padding:0px !important;
+         border:none;
+         border-radius:none;
+         float:right;
+         background-color:none;
+         opacity:.9;
+         outline-color:none !important;
+         height:45px;
+         width:45px;
+    }
+     #site-navigation button{
+         border-radius:none !important;
+    }
+     #site-navigation{
+         position:fixed;
+         top:0;
+         right:15px;
+    }
+     .main-navigation a{
+         color:#fff !important;
+    }
+     .main-navigation a:visited{
+         color:#fff !important;
+    }
+     .main-navigation a:hover{
+         color:#ccc !important;
+    }
+     .sub-menu{
+         background-color:#252d34;
+         opacity:1;
+         border:none;
+    }
+     nav.footer-nav{
+         margin-top:15px;
+    }
+     nav.footer-nav a{
+        margin-bottom:15px;
+    }
+     .section-moreplmapps .card{
+         padding:5px;
+         border:dotted red 1px;
+    }
+     #site-navigation{
+         width:60% ;
+    }
+    /* -- BODY ------------------------------ -- */
+    /* -- SECTION --------------------------- -- */
+     .section-whatisplm .pullquote{
+         padding:15px 15px !important;
+    }
+     section.section-featuredtraining{
+         padding:0px !important;
+    }
+    /* -- ARTICLE --------------------------- -- */
+    /* -- ENTRY ----------------------------- -- */
+    /* -- FOOTER ---------------------------- -- */
+     .footer-main{
+        text-align:center;
+    }
+    /* -- TYPOGRAPHY ------------------------ -- */
+     .hero-title{
+         font-size:1.5em !important;
+    }
+      h2.section-title{
+         font-size:.8em;
+    }
+    /* -- UL and LI ------------------------- --*/
+     ul{
+         columns:1 !important;
+         -webkit-columns:1!important;
+         -moz-columns:1!important;
+         padding-left:0px !important;
+         margin-left:0px !important;
+    }
+     ul  li{
+         min-width:110% !important;
+         margin-bottom:15px;
+    }
+
+     div.what-is-plm-header{
+         width:100% !important;
+    }
+     .what-is-plm-header.darkhero{
+         padding:1em !important;
+    }
+    
+     
+     
+   
+     div.post{
+         padding:0px;
+    }
+    
+}
+ 
