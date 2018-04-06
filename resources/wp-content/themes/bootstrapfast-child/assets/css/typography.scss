@@ -1,0 +1,21 @@
+/* -- TYPOGRAPHY ------------------------ -- */
+ .breaking-word-fix{
+     -ms-word-break: keep-all !important;
+     word-break: keep-all !important;
+    /* Non standard for WebKit */
+     word-break: keep-all !important;
+     -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+     hyphens: none !important;
+     -ms-hyphens:none !important;
+}
+ #primary,aside{
+     -ms-word-break: keep-all !important;
+     word-break: keep-all !important;
+    /* Non standard for WebKit */
+     word-break: keep-all !important;
+     -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+     hyphens: none !important;
+     -ms-hyphens:none !important;
+}

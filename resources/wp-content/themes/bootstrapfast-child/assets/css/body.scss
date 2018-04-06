@@ -1,0 +1,59 @@
+ 
+/* -- BODY ------------------------------ -- */
+html,body{
+    /*overflow-x:hidden !important;
+    */
+    background-color:#333;
+}
+
+ 
+ 
+ article{
+     margin:0 !important;
+    padding:0 !important;
+}
+ .entry-content, .entry-summary, .page-content{
+     margin:0 0 0 0 !important;
+}
+
+ .site-content{
+     margin-top:100px;
+    /* due to Sticky Header */
+}
+ .site-content{
+    padding:0 0 !important;
+}
+ .content-area {
+     padding-right:0px !important;
+     padding-left:0px !important;
+}
+ #content .row{
+     padding:0 !important;
+     margin:0 !important;
+}
+ #secondary{
+     display:none;
+}
+ .hero{
+     height:525px;
+     max-height:525px;
+}
+ .back-to-press{
+     background-color: #36414d ;
+     color:#fff;
+     width:100px;
+     margin-top:25px;
+     padding:3px;
+     text-align:center;
+}
+.card{
+     border:none !important;
+}
+ .wp-video-embed{
+     margin-top:60px;
+     border:solid 1px #ccc;
+     padding:10px;
+}
+ .front-page-adjust{
+     margin-left:25%;
+}

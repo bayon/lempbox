@@ -24,7 +24,7 @@
 				 
 				<div class="row header-row"   >
 					<div class="col-lg-2">
-						&nbsp;
+						&nbsp; 
 					</div>
 					<div class="asi-plm-logo-div col-lg-4">
 						 <a class="logo" href="<?php echo(get_site_url()); ?>">

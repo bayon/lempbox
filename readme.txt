@@ -49,3 +49,27 @@ Page Examples:
 Notes: Try not to bring over any other CSS from existing projects if possible.
 
 
+Incorporate GULP
+https://github.com/ahmadawais/WPGulp#%E2%93%A6-what-can-wpgulp-do
+
+Step #1. Download the Required Files
+run this cmd in root folder:
+curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/package.json && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/gulpfile.js && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/.gitignore
+
+STEP #2: Editing the Project Variables in gulpfiile.js
+
+
+STEP #3: Installing NodeJS, NPM and Gulp
+npm install --global gulp
+
+STEP #4: Installing Node Dependencies
+npm install
+
+STEP #5: Just run Gulp
+
+Optional Step #6: Images and Translation
+# To optimize images
+gulp images
+
+# To generate WP POT translation file.
+gulp translate

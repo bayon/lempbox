@@ -1,0 +1,27 @@
+ /* -- HEADER ---------------------------- -- */
+ #masthead{
+     position:fixed;
+     top:0px;
+     z-index:9999;
+     box-shadow:0px 0px 20px #555;
+}
+ header#masthead{
+     background-color:#fff !important;
+     color:#000;
+}
+ .header-row{
+     margin-right:0px !important;
+     margin-bottom:0px !important;
+     padding-right:0px !important;
+     padding-bottom:0px !important;
+}
+ .asi-plm-logo-div{
+     margin-top:15px;
+}
+ .header-row{
+     height:122px;
+}
+ .asi-plm-logo-div a.logo{
+     text-align:left;
+     float:left;
+}

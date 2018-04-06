@@ -1,0 +1,52 @@
+
+/* -- NAVIGATION ------------------------ -- */
+ #menu-item-21 {
+     background-color: #36414d ;
+     color:#fff;
+}
+ .main-navigation #menu-item-21 a{
+     color:#fff !important;
+}
+ .main-navigation #menu-item-21 a:visited{
+     color:#fff !important;
+}
+ .main-navigation #menu-item-21 a:hover{
+     color:#fff !important;
+     background-color:#27A9E1;
+}
+ .main-navigation a{
+     color:#525c66 !important;
+}
+ .main-navigation a:visited{
+     color:#525c66 !important;
+}
+ .main-navigation a:hover{
+     color:#61C0E9 !important;
+}
+ .main-navigation{
+     margin-top:30px;
+}
+ .main-navigation a, .textwidget a{
+     color:#222 !important;
+}
+ .main-navigation a{
+     color: #525c66;
+     font-size: .75rem;
+     position: relative;
+     text-transform: uppercase;
+     transition: all .15s ease-in-out;
+}
+ .main-navigation ul ul{
+     box-shadow:none;
+}
+ .sub-menu{
+     background-color:#fff;
+     opacity:.9;
+     border:solid 1px #ddd;
+}
+ .menu-mainmenu-container{
+     float:right;
+}
+ #site-navigation button{
+     background:#252d34;
+}

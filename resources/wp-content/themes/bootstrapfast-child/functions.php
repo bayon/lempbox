@@ -4,17 +4,24 @@ function bs_fast_child_enqueue_styles() {
     $parent_style = 'parent-style'; 
 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'child-style',
+   /* 
+//commented out because 'gulp' now handles child theme css.
+   wp_enqueue_style( 'child-style',
         get_stylesheet_directory_uri() . '/style.css',
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-
+*/
     /*enqueue additional styles than absolute min for child theme. Had to include font awesome in assets/fonts/... */
     /* get original css from Foundation version of the website.*/
      /* wp_enqueue_style( 'plm-original-foundation-style',get_theme_root_uri().'/bootstrapfast-child/assets/css/original.foundation.css' );*/
 
-       wp_enqueue_style( 'custom-styles',get_theme_root_uri().'/bootstrapfast-child/assets/css/custom-styles-1.0.css' );
+       /*wp_enqueue_style( 'custom-styles',get_theme_root_uri().'/bootstrapfast-child/assets/css/custom-styles-1.0.css' );*/
+
+    wp_enqueue_style( 'gulped-styles',get_theme_root_uri().'/bootstrapfast-child/style.min.css' );
+    wp_enqueue_script( 'gulped-custom-scripts',get_theme_root_uri().'/bootstrapfast-child/assets/js/custom.min.js' );
+    wp_enqueue_script( 'gulped-vendors-scripts',get_theme_root_uri().'/bootstrapfast-child/assets/js/vendors.min.js' );
+
 }
 add_action( 'wp_enqueue_scripts', 'bs_fast_child_enqueue_styles' );
 
