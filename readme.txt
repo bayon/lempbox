@@ -73,3 +73,6 @@ gulp images
 
 # To generate WP POT translation file.
 gulp translate
+
+
+added animatecss from cdn in enqueue scripts as well as made some custom delay-1, classes...
